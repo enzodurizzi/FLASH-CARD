@@ -1,0 +1,52 @@
+/* Estilo geral da página */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0; /* Remove as margens padrão do navegador */
+}
+
+/* O cartão (flashcard) */
+.cartao {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+    /* MARGIN: Afasta o cartão de outros elementos externos */
+    margin: 20px;
+    
+    /* PADDING: Dá espaço entre a borda do cartão e o texto dentro dele */
+    padding: 24px;
+    
+    width: 300px;
+    border: 2px solid #007bff;
+}
+
+/* Categoria (Título superior) */
+.cartao__categoria {
+    color: #007bff;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 12px; /* Margem inferior para afastar da pergunta */
+}
+
+/* Pergunta */
+.cartao__pergunta p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    padding: 8px 0; /* Padding em cima e embaixo */
+}
+
+/* Resposta */
+.cartao__resposta p {
+    font-size: 14px;
+    color: #555555;
+    background-color: #e9ecef;
+    padding: 12px; /* Padding interno para criar um 'balão' de fundo */
+    border-radius: 6px;
+    margin-top: 10px;
+}
